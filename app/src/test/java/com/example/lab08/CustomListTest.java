@@ -12,19 +12,19 @@ public class CustomListTest {
         assertTrue(list.hasCity(calgary));
     }
 
-//    public void testDeleteCity() {
-//        CustomList list = new CustomList();
-//        City calgary = new City("Calgary", "AB");
-//        City edmonton = new City("Edmonton", "AB");
-//
-//        list.addCity(calgary);
-//        list.addCity(edmonton);
-//
-//        list.deleteCity(calgary);
-//
-//        assertFalse(list.hasCity(calgary));
-//        assertTrue(list.hasCity(edmonton));
-//    }
+    public void testDeleteCity() {
+        CustomList list = new CustomList();
+        City calgary = new City("Calgary", "AB");
+        City edmonton = new City("Edmonton", "AB");
+
+        list.addCity(calgary);
+        list.addCity(edmonton);
+
+        list.deleteCity(calgary);
+
+        assertFalse(list.hasCity(calgary));
+        assertTrue(list.hasCity(edmonton));
+    }
 
 //    public void testCountCities() {
 //        CustomList list = new CustomList();
